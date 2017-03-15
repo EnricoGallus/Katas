@@ -1,13 +1,8 @@
-public class OptionalSplitter implements ISplitter {
-    private String numbers;
+public class OptionalSplitter extends Splitter {
 
     public OptionalSplitter(String numbers) {
-        this.numbers = numbers;
-    }
-
-    @Override
-    public String getDelimiter() {
-        return String.valueOf(numbers.charAt(0));
+        super(numbers);
+        DEFAULTDELIMITER = String.valueOf(numbers.charAt(0));
     }
 
     @Override
