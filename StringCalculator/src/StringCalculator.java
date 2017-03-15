@@ -1,15 +1,15 @@
 public class StringCalculator {
-    private static final String DEFAULTDELIMITER = ",";
     private static final String NEWLINE = "\n";
 
     public static int add(String numbers) {
 
         boolean hasOptionalDelimiter = hasOptionalDelimiter(numbers);
-        String delimiter = hasOptionalDelimiter ? String.valueOf(numbers.charAt(0)) : DEFAULTDELIMITER;
-        numbers = hasOptionalDelimiter ? numbers.substring(2, numbers.length()) : numbers;
-        if (numbers == "") return 0;
+        ISplitter splitter = hasOptionalDelimiter ? new OptionalSplitter(numbers) : new DefaultSplitter(numbers);
+        String numberString = splitter.getNumberString();
 
-        String[] parts = numbers.replace(NEWLINE, delimiter).split(delimiter);
+        if (numberString == "") return 0;
+
+        String[] parts = numberString.replace(NEWLINE, splitter.getDelimiter()).split(splitter.getDelimiter());
         return getSum(parts);
     }
 
@@ -25,4 +25,10 @@ public class StringCalculator {
 
         return sum;
     }
+
+
+
+
+
+
 }
