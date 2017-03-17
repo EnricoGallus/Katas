@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BowlingGame/BowlingGame.iml" filepath="$PROJECT_DIR$/BowlingGame/BowlingGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/Katas.iml" filepath="$PROJECT_DIR$/Katas.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringCalculator/StringCalculator.iml" filepath="$PROJECT_DIR$/StringCalculator/StringCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringSumKata/StringSumKata.iml" filepath="$PROJECT_DIR$/StringSumKata/StringSumKata.iml" />
