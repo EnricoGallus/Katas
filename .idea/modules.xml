@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BowlingGame/BowlingGame.iml" filepath="$PROJECT_DIR$/BowlingGame/BowlingGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/Katas.iml" filepath="$PROJECT_DIR$/Katas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OddEven/OddEven.iml" filepath="$PROJECT_DIR$/OddEven/OddEven.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringCalculator/StringCalculator.iml" filepath="$PROJECT_DIR$/StringCalculator/StringCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringSumKata/StringSumKata.iml" filepath="$PROJECT_DIR$/StringSumKata/StringSumKata.iml" />
     </modules>
